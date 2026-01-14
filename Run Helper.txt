@@ -1,0 +1,42 @@
+npm create vite@latest
+cd client
+npm install
+npm run dev
+
+change title in client -> index.html
+
+
+npm install react router-dom react-youtube uniqid quill humanize-duration rc-progress react-simple-star-rating
+
+vite + tailwind css
+npm install -D tailwindcss@3 postcss autoprefixer
+npx tailwindcss init -p
+it WILL create:
+tailwind.config.js
+postcss.config.js
+
+
+tailwind.config.js
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
+
+
+src/index.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+src/main.jsx
+import "./index.css";
+
+npm run dev
