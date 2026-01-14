@@ -15,6 +15,7 @@
     "rc-progress": "^4.0.0",
     "react": "^19.2.3",
     "react-dom": "^19.2.0",
+    "react-router-dom": "^7.12.0",
     "react-simple-star-rating": "^5.1.7",
     "react-youtube": "^10.1.0",
     "router-dom": "^3.0.3",
