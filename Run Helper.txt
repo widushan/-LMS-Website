@@ -40,3 +40,8 @@ src/main.jsx
 import "./index.css";
 
 npm run dev
+
+
+In Clerk - create application and move to react part
+npm install @clerk/clerk-react
+
