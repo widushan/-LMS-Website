@@ -1,5 +1,7 @@
 import logo from './logo.svg'
 import lms_logo from './lms_logo.svg'
+import lms from './lms.svg'
+import lms_bg from './lms_bg.svg'
 import logo_dark from './logo_dark.svg'
 import search_icon from './search_icon.svg'
 import cross_icon from './cross_icon.svg'
@@ -48,6 +50,8 @@ import lesson_icon from './lesson_icon.svg'
 export const assets = {
     logo,
     lms_logo,
+    lms,
+    lms_bg,
     search_icon,
     sketch,
     microsoft_logo,
