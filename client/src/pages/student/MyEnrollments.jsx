@@ -1,9 +1,26 @@
-import React, { useContext } from 'react'
+import React, { useState, useContext } from 'react'
 import { AppContext } from '../../context/AppContext'
 
 const MyEnrollments = () => {
 
   const {enrolledCourses, calculateCourseDuration} = useContext(AppContext)
+
+  const [progressArray, setProgressArray] = useState([
+    {lectureCompleted: 2, totalLectures: 4},
+    {lectureCompleted: 1, totalLectures: 5},
+    {lectureCompleted: 3, totalLectures: 6},
+    {lectureCompleted: 4, totalLectures: 4},
+    {lectureCompleted: 0, totalLectures: 3},
+    {lectureCompleted: 5, totalLectures: 7},
+    {lectureCompleted: 6, totalLectures: 8},
+    {lectureCompleted: 2, totalLectures: 6},
+    {lectureCompleted: 4, totalLectures: 10},
+    {lectureCompleted: 3, totalLectures: 5},
+    {lectureCompleted: 7, totalLectures: 7},
+    {lectureCompleted: 1, totalLectures: 4},
+    {lectureCompleted: 0, totalLectures: 2},
+    {lectureCompleted: 5, totalLectures: 5}
+  ])
 
   return (
 
@@ -33,7 +50,8 @@ const MyEnrollments = () => {
                   {calculateCourseDuration(course)}
                 </td>
                 <td className='px-4 py-3 max-sm:hidden'>
-                  4 / 10 <span>Lectures</span>
+                  {progressArray[index] && `${progressArray[index].lectureCompleted} / ${progressArray[index].totalLectures}`} 
+                  <span>Lectures</span>
                 </td>
                 <td className='px-4 py-3 max-sm:text-right'>
                   <button className='px-3 sm:px-5 py-1.5 sm:py-2 bg-blue-600 max-sm:text-xs text-white'>On Going</button>
