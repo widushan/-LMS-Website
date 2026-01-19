@@ -58,3 +58,15 @@ npm init -y
 npm install express nodemon dotenv cors cloudinary mongoose multer stripe svix@1.42.0 @clerk/express
 
 npm run server
+
+
+
+
+
+
+
+
+______________________________________________________________________________________________________
+
+vercel code for deploy
+https://github.com/GreatStackDev/notes/blob/main/Vercel_JSON_Config_For_MERN.md
