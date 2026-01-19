@@ -45,3 +45,16 @@ npm run dev
 In Clerk - create application and move to react part
 npm install @clerk/clerk-react
 
+
+
+________________________________________________________________________________________
+
+
+
+create "server" named folder
+create server.js file
+cd server
+npm init -y
+npm install express nodemon dotenv cors cloudinary mongoose multer stripe svix@1.42.0 @clerk/express
+
+npm run server
