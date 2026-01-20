@@ -29,7 +29,7 @@ const TestimonialsSection = () => {
                   </div>
                   <p className='text-gray-500 mt-5'>{testimonial.feedback}</p>
                 </div>
-                <a href="#" className='ml-5 text-blue-500 hover:text-blue-700'>Read more</a>
+                {/*<a href="#" className='ml-5 text-blue-500 hover:text-blue-700'>Read more</a>*/}
             </div>
           ))}
         </div>

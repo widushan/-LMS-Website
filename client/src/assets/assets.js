@@ -45,6 +45,9 @@ import profile_img from './profile_img.png'
 import profile_img2 from './profile_img2.png'
 import profile_img3 from './profile_img3.png'
 import lesson_icon from './lesson_icon.svg'
+import IBM from './IBM.svg'
+import Google from './Google.svg'
+import Amazon from './Amazon.svg'
 
 
 export const assets = {
@@ -94,7 +97,10 @@ export const assets = {
     profile_img3,
     play_icon,
     blue_tick_icon,
-    lesson_icon
+    lesson_icon,
+    IBM,
+    Google,
+    Amazon
 }
 
 export const dummyEducatorData = {
@@ -109,25 +115,25 @@ export const dummyEducatorData = {
 
 export const dummyTestimonial = [
     {
-        name: 'Donald Jackman',
-        role: 'SWE 1 @ Amazon',
+        name: 'Pasan Jayawardena',
+        role: 'Software Engineer, WSO2',
         image: assets.profile_img_1,
         rating: 5,
-        feedback: 'I\'ve been using Imagify for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.',
+        feedback: 'EduLanka helped me strengthen my technical skills with clear explanations and practical examples. The learning experience was smooth and well-structured.',
     },
     {
-        name: 'Richard Nelson',
-        role: 'SWE 2 @ Samsung',
+        name: 'Nadeeshani Perera',
+        role: 'Associate Data Analyst, Virtusa',
         image: assets.profile_img_2,
         rating: 4,
-        feedback: 'I\'ve been using Imagify for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.',
+        feedback: 'The courses are easy to follow and focused on real-world applications. I feel more confident applying what I learned in my work.',
     },
     {
-        name: 'James Washington',
-        role: 'SWE 2 @ Google',
+        name: 'Prasad Fernando',
+        role: 'Frontend Developer, Sysco LABS',
         image: assets.profile_img_3,
         rating: 4.5,
-        feedback: 'I\'ve been using Imagify for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.',
+        feedback: 'A great platform for anyone serious about upgrading their skills. The content quality and support really stand out',
     },
 ];
 
