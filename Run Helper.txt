@@ -6,7 +6,7 @@ npm run dev
 change title in client -> index.html
 
 
-npm install react-router-dom react-youtube uniqid quill humanize-duration rc-progress react-simple-star-rating
+npm install react-router-dom react-youtube uniqid quill humanize-duration rc-progress react-simple-star-rating axios react-toastify
 
 vite + tailwind css
 npm install -D tailwindcss@3 postcss autoprefixer
