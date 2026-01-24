@@ -47,7 +47,7 @@ import profile_img3 from './profile_img3.png'
 import lesson_icon from './lesson_icon.svg'
 import IBM from './IBM.svg'
 import Google from './Google.svg'
-import Amazon from './Amazon.svg'
+import Amazon from './amazon.svg'
 
 
 export const assets = {
