@@ -6,21 +6,40 @@ export default {
   ],
   theme: {
     extend: {
-      fontSize : {
+      fontSize: {
         'course-details-heading-small': ['26px', '36px'],
         'course-details-heading-large': ['36px', '44px'],
         'home-heading-small': ['28px', '34px'],
         'home-heading-large': ['48px', '56px'],
         'default': ['15px', '21px']
       },
-      gridTemplateColumns:{
-        'auto' : 'repeat(auto-fit, minmax(200px, 1fr))'
+      animation: {
+        blob: "blob 7s infinite",
+      },
+      keyframes: {
+        blob: {
+          "0%": {
+            transform: "translate(0px, 0px) scale(1)",
+          },
+          "33%": {
+            transform: "translate(30px, -50px) scale(1.1)",
+          },
+          "66%": {
+            transform: "translate(-20px, 20px) scale(0.9)",
+          },
+          "100%": {
+            transform: "translate(0px, 0px) scale(1)",
+          },
+        },
+      },
+      gridTemplateColumns: {
+        'auto': 'repeat(auto-fit, minmax(200px, 1fr))'
       },
       spacing: {
-        'section-height' : '500px'
+        'section-height': '500px'
       },
       maxWidth: {
-        'course-card' : '424px'
+        'course-card': '424px'
       },
       boxShadow: {
         'custom-card': '0px 4px 15px 2px rgba(0, 0, 0, 0.1)',
