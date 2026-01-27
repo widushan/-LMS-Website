@@ -11,11 +11,11 @@ const Footer = () => {
         
         <div className='flex flex-col md:items-start items-center w-full'>
           <img className='w-20 h-20' src={assets.lms_bg} alt="logo" />
-          <div class="footer-description mt-6 text-center md:text-left">
-            <blockquote class="text-sm text-white/80 italic border-l-4 border-blue-400 pl-4 mb-2">
+          <div className="footer-description mt-6 text-center md:text-left">
+            <blockquote className="text-sm text-white/80 italic border-l-4 border-blue-400 pl-4 mb-2">
                 "Where skills meet opportunity,<br/>and learning never ends."
             </blockquote>
-            <p class="author text-xs text-white/60">— The EduLanka Vision</p>
+            <p className="author text-xs text-white/60">— The EduLanka Vision</p>
           </div>
         </div>
 
