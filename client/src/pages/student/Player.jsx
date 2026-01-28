@@ -10,6 +10,7 @@ import Rating from '../../components/student/Rating'
 import { toast } from 'react-toastify'
 import axios from 'axios'
 import Loading from '../../components/student/Loading'
+import { extractYouTubeVideoId } from '../../utils/youtube'
 
 const Player = () => {
 
@@ -119,6 +120,20 @@ const Player = () => {
     getCourseProgress()
   }, [])
 
+  const onWatchLecture = (lecture, chapterIndex, lectureIndex) => {
+    const videoId = extractYouTubeVideoId(lecture.lectureUrl);
+    if (!videoId) {
+      toast.error('Invalid video URL');
+      return;
+    }
+    setPlayerData({
+      ...lecture,
+      videoId,
+      chapter: chapterIndex + 1,
+      lecture: lectureIndex + 1
+    });
+  };
+
 
 
   return courseData ? (
@@ -151,9 +166,7 @@ const Player = () => {
                         <div className='flex items-center justify-between w-full text-gray-800 text-xs md:text-default'>
                           <p>{lecture.lectureTitle}</p>
                           <div className='flex gap-2'>
-                            {lecture.lectureUrl && <p onClick={()=>setPlayerData({
-                              ...lecture, chapter:index + 1, lecture: i + 1
-                            })}
+                            {lecture.lectureUrl && <p onClick={()=>onWatchLecture(lecture, index, i)}
                             className='text-blue-500 cursor-pointer'>Watch</p>}
                             <p>{humanizeDuration(lecture.lectureDuration * 60 * 1000, {units: ['h', 'm']})}</p>
                           </div>
@@ -181,7 +194,7 @@ const Player = () => {
           {
             playerData ? (
               <div>
-                <YouTube videoId={playerData.lectureUrl.split('/').pop()} iframeClassName='w-full aspect-video' />
+                <YouTube videoId={playerData.videoId} iframeClassName='w-full aspect-video' />
                 <div className='flex justify-between items-center mt-1'>
                   <p>{playerData.chapter}.{playerData.lecture} {playerData.lectureTitle}</p>
                   <button onClick={() => markLectureAsCompleted(playerData.lectureId)} 

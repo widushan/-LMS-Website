@@ -8,6 +8,7 @@ import Footer from '../../components/student/Footer'
 import YouTube from 'react-youtube'
 import axios from 'axios'
 import { toast } from 'react-toastify'
+import { extractYouTubeVideoId } from '../../utils/youtube'
 
 
 const CourseDetails = () => {
@@ -83,6 +84,15 @@ const CourseDetails = () => {
     ));
   };
 
+  const onPreviewLecture = (lectureUrl) => {
+    const videoId = extractYouTubeVideoId(lectureUrl);
+    if (!videoId) {
+      toast.error('Invalid video URL');
+      return;
+    }
+    setPlayerData({ videoId });
+  };
+
   return courseData ? (
 
     <>
@@ -130,9 +140,7 @@ const CourseDetails = () => {
                           <div className='flex items-center justify-between w-full text-gray-800 text-xs md:text-default'>
                             <p>{lecture.lectureTitle}</p>
                             <div className='flex gap-2'>
-                              {lecture.isPreviewFree && <p onClick={()=>setPlayerData({
-                                videoId: lecture.lectureUrl.split('/').pop()
-                              })}
+                              {lecture.isPreviewFree && <p onClick={()=>onPreviewLecture(lecture.lectureUrl)}
                                className='text-blue-500 cursor-pointer'>Preview</p>}
                               <p>{humanizeDuration(lecture.lectureDuration * 60 * 1000, {units: ['h', 'm']})}</p>
                             </div>
