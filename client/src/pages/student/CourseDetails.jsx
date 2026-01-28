@@ -142,7 +142,7 @@ const CourseDetails = () => {
                             <div className='flex gap-2'>
                               {lecture.isPreviewFree && <p onClick={()=>onPreviewLecture(lecture.lectureUrl)}
                                className='text-blue-500 cursor-pointer'>Preview</p>}
-                              <p>{humanizeDuration(lecture.lectureDuration * 60 * 1000, {units: ['h', 'm']})}</p>
+                              <p>{(Number(lecture.lectureDuration) || 0).toFixed(2)} minutes</p>
                             </div>
                           </div>
                         </li>

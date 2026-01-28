@@ -84,20 +84,26 @@ export const AppContextProvider = (props) => {
   }
 
 
- //Calculate Course Chapter Time
+ //Calculate Course Chapter Time (minutes, rounded to 2 decimals)
   const calculateChapterTime = (chapter)=>{
     let time = 0
-    chapter.chapterContent.map((lecture)=> time += lecture.lectureDuration)
-    return humanizeDuration(time * 60 * 1000, {units: ["h", "m"]})
+    chapter.chapterContent.forEach((lecture)=> {
+      time += Number(lecture.lectureDuration) || 0
+    })
+    const rounded = Math.round(time * 100) / 100
+    return `${rounded.toFixed(2)} minutes`
   }
 
-  // Function to Calculate Course Duration
+  // Function to Calculate Course Duration (minutes, rounded to 2 decimals)
   const calculateCourseDuration = (course)=>{
       let time = 0
-      course.courseContent.map((chapter)=> chapter.chapterContent.map(
-          (lecture) => time += lecture.lectureDuration
-      ))
-      return humanizeDuration(time * 60 * 1000, {units: ["h", "m"]})
+      course.courseContent.forEach((chapter)=> {
+        chapter.chapterContent.forEach((lecture) => {
+          time += Number(lecture.lectureDuration) || 0
+        })
+      })
+      const rounded = Math.round(time * 100) / 100
+      return `${rounded.toFixed(2)} minutes`
   }
 
   // Function calculate to No of Lectures in the course
