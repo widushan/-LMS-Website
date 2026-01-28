@@ -1,0 +1,2225 @@
+{
+  "files": [
+    {
+      "path": "configs\\cloudinary.js",
+      "lineCount": 11,
+      "importCount": 1,
+      "exportCount": 1,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [
+        "Cloudinary"
+      ],
+      "directModelImports": 0,
+      "complexity": "low",
+      "mixedConcerns": null
+    },
+    {
+      "path": "configs\\mongodb.js",
+      "lineCount": 10,
+      "importCount": 1,
+      "exportCount": 1,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [
+        "MongoDB"
+      ],
+      "directModelImports": 0,
+      "complexity": "low",
+      "mixedConcerns": null
+    },
+    {
+      "path": "configs\\multer.js",
+      "lineCount": 7,
+      "importCount": 1,
+      "exportCount": 1,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [],
+      "directModelImports": 0,
+      "complexity": "low",
+      "mixedConcerns": null
+    },
+    {
+      "path": "controllers\\courseController.js",
+      "lineCount": 35,
+      "importCount": 1,
+      "exportCount": 2,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [],
+      "directModelImports": 1,
+      "complexity": "low",
+      "mixedConcerns": null
+    },
+    {
+      "path": "controllers\\educatorController.js",
+      "lineCount": 130,
+      "importCount": 5,
+      "exportCount": 5,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [
+        "Clerk",
+        "Cloudinary"
+      ],
+      "directModelImports": 3,
+      "complexity": "medium",
+      "mixedConcerns": null
+    },
+    {
+      "path": "controllers\\userController.js",
+      "lineCount": 173,
+      "importCount": 5,
+      "exportCount": 6,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [
+        "Stripe"
+      ],
+      "directModelImports": 4,
+      "complexity": "medium",
+      "mixedConcerns": null
+    },
+    {
+      "path": "controllers\\webhooks.js",
+      "lineCount": 127,
+      "importCount": 5,
+      "exportCount": 2,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [
+        "Stripe",
+        "Clerk"
+      ],
+      "directModelImports": 3,
+      "complexity": "medium",
+      "mixedConcerns": null
+    },
+    {
+      "path": "middlewares\\authMiddleware.js",
+      "lineCount": 18,
+      "importCount": 1,
+      "exportCount": 1,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [
+        "Clerk"
+      ],
+      "directModelImports": 0,
+      "complexity": "low",
+      "mixedConcerns": null
+    },
+    {
+      "path": "models\\Course.js",
+      "lineCount": 42,
+      "importCount": 1,
+      "exportCount": 1,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [
+        "MongoDB"
+      ],
+      "directModelImports": 0,
+      "complexity": "low",
+      "mixedConcerns": null
+    },
+    {
+      "path": "models\\CourseProgress.js",
+      "lineCount": 10,
+      "importCount": 1,
+      "exportCount": 1,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [
+        "MongoDB"
+      ],
+      "directModelImports": 0,
+      "complexity": "low",
+      "mixedConcerns": null
+    },
+    {
+      "path": "models\\Purchase.js",
+      "lineCount": 17,
+      "importCount": 1,
+      "exportCount": 1,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [
+        "MongoDB"
+      ],
+      "directModelImports": 0,
+      "complexity": "low",
+      "mixedConcerns": null
+    },
+    {
+      "path": "models\\User.js",
+      "lineCount": 20,
+      "importCount": 1,
+      "exportCount": 1,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [
+        "MongoDB"
+      ],
+      "directModelImports": 0,
+      "complexity": "low",
+      "mixedConcerns": null
+    },
+    {
+      "path": "routes\\courseRoutes.js",
+      "lineCount": 9,
+      "importCount": 2,
+      "exportCount": 1,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [],
+      "directModelImports": 0,
+      "complexity": "low",
+      "mixedConcerns": null
+    },
+    {
+      "path": "routes\\educatorRoutes.js",
+      "lineCount": 15,
+      "importCount": 4,
+      "exportCount": 1,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [],
+      "directModelImports": 0,
+      "complexity": "low",
+      "mixedConcerns": null
+    },
+    {
+      "path": "routes\\userRoutes.js",
+      "lineCount": 13,
+      "importCount": 2,
+      "exportCount": 1,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [],
+      "directModelImports": 0,
+      "complexity": "low",
+      "mixedConcerns": null
+    },
+    {
+      "path": "server.js",
+      "lineCount": 39,
+      "importCount": 9,
+      "exportCount": 0,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [
+        "Stripe",
+        "Clerk",
+        "Cloudinary"
+      ],
+      "directModelImports": 0,
+      "complexity": "low",
+      "mixedConcerns": null
+    },
+    {
+      "path": "App.jsx",
+      "lineCount": 49,
+      "importCount": 15,
+      "exportCount": 1,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [],
+      "directModelImports": 0,
+      "complexity": "low",
+      "mixedConcerns": null
+    },
+    {
+      "path": "assets\\assets.js",
+      "lineCount": 772,
+      "importCount": 50,
+      "exportCount": 6,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [
+        "Clerk"
+      ],
+      "directModelImports": 0,
+      "complexity": "high",
+      "mixedConcerns": null
+    },
+    {
+      "path": "components\\educator\\Footer.jsx",
+      "lineCount": 36,
+      "importCount": 2,
+      "exportCount": 1,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [],
+      "directModelImports": 0,
+      "complexity": "low",
+      "mixedConcerns": null
+    },
+    {
+      "path": "components\\educator\\Navbar.jsx",
+      "lineCount": 32,
+      "importCount": 5,
+      "exportCount": 1,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [
+        "Clerk"
+      ],
+      "directModelImports": 0,
+      "complexity": "low",
+      "mixedConcerns": null
+    },
+    {
+      "path": "components\\educator\\Sidebar.jsx",
+      "lineCount": 39,
+      "importCount": 4,
+      "exportCount": 1,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [],
+      "directModelImports": 0,
+      "complexity": "low",
+      "mixedConcerns": [
+        "State + Calculations"
+      ]
+    },
+    {
+      "path": "components\\student\\CallToAction.jsx",
+      "lineCount": 24,
+      "importCount": 2,
+      "exportCount": 1,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [],
+      "directModelImports": 0,
+      "complexity": "low",
+      "mixedConcerns": null
+    },
+    {
+      "path": "components\\student\\Companies.jsx",
+      "lineCount": 26,
+      "importCount": 2,
+      "exportCount": 1,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [],
+      "directModelImports": 0,
+      "complexity": "low",
+      "mixedConcerns": null
+    },
+    {
+      "path": "components\\student\\CourseCard.jsx",
+      "lineCount": 38,
+      "importCount": 4,
+      "exportCount": 1,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [],
+      "directModelImports": 0,
+      "complexity": "low",
+      "mixedConcerns": [
+        "State + Calculations"
+      ]
+    },
+    {
+      "path": "components\\student\\CoursesSection.jsx",
+      "lineCount": 33,
+      "importCount": 4,
+      "exportCount": 1,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [],
+      "directModelImports": 0,
+      "complexity": "low",
+      "mixedConcerns": [
+        "State + Calculations"
+      ]
+    },
+    {
+      "path": "components\\student\\Footer.jsx",
+      "lineCount": 52,
+      "importCount": 2,
+      "exportCount": 1,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [],
+      "directModelImports": 0,
+      "complexity": "low",
+      "mixedConcerns": null
+    },
+    {
+      "path": "components\\student\\Hero.jsx",
+      "lineCount": 30,
+      "importCount": 4,
+      "exportCount": 1,
+      "functionCount": 0,
+      "classCount": 2,
+      "externalServices": [],
+      "directModelImports": 0,
+      "complexity": "low",
+      "mixedConcerns": null
+    },
+    {
+      "path": "components\\student\\Loading.jsx",
+      "lineCount": 29,
+      "importCount": 2,
+      "exportCount": 1,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [],
+      "directModelImports": 0,
+      "complexity": "low",
+      "mixedConcerns": null
+    },
+    {
+      "path": "components\\student\\Navbar.jsx",
+      "lineCount": 74,
+      "importCount": 7,
+      "exportCount": 1,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [
+        "Clerk"
+      ],
+      "directModelImports": 0,
+      "complexity": "low",
+      "mixedConcerns": [
+        "State + API calls"
+      ]
+    },
+    {
+      "path": "components\\student\\Rating.jsx",
+      "lineCount": 39,
+      "importCount": 1,
+      "exportCount": 1,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [],
+      "directModelImports": 0,
+      "complexity": "low",
+      "mixedConcerns": null
+    },
+    {
+      "path": "components\\student\\SearchBar.jsx",
+      "lineCount": 28,
+      "importCount": 3,
+      "exportCount": 1,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [],
+      "directModelImports": 0,
+      "complexity": "low",
+      "mixedConcerns": null
+    },
+    {
+      "path": "components\\student\\TestimonialsSection.jsx",
+      "lineCount": 43,
+      "importCount": 2,
+      "exportCount": 1,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [],
+      "directModelImports": 0,
+      "complexity": "low",
+      "mixedConcerns": null
+    },
+    {
+      "path": "context\\AppContext.jsx",
+      "lineCount": 156,
+      "importCount": 7,
+      "exportCount": 2,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [
+        "Clerk"
+      ],
+      "directModelImports": 0,
+      "complexity": "medium",
+      "mixedConcerns": [
+        "State + API calls",
+        "State + Calculations",
+        "API + Calculations"
+      ]
+    },
+    {
+      "path": "main.jsx",
+      "lineCount": 28,
+      "importCount": 6,
+      "exportCount": 0,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [
+        "Clerk"
+      ],
+      "directModelImports": 0,
+      "complexity": "low",
+      "mixedConcerns": null
+    },
+    {
+      "path": "pages\\educator\\AddCourse.jsx",
+      "lineCount": 293,
+      "importCount": 7,
+      "exportCount": 1,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [],
+      "directModelImports": 0,
+      "complexity": "high",
+      "mixedConcerns": [
+        "State + API calls",
+        "State + Calculations",
+        "API + Calculations"
+      ]
+    },
+    {
+      "path": "pages\\educator\\Dashboard.jsx",
+      "lineCount": 112,
+      "importCount": 7,
+      "exportCount": 1,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [],
+      "directModelImports": 0,
+      "complexity": "medium",
+      "mixedConcerns": [
+        "State + API calls",
+        "State + Calculations",
+        "API + Calculations"
+      ]
+    },
+    {
+      "path": "pages\\educator\\Educator.jsx",
+      "lineCount": 34,
+      "importCount": 5,
+      "exportCount": 1,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [],
+      "directModelImports": 0,
+      "complexity": "low",
+      "mixedConcerns": null
+    },
+    {
+      "path": "pages\\educator\\MyCourses.jsx",
+      "lineCount": 74,
+      "importCount": 4,
+      "exportCount": 1,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [],
+      "directModelImports": 0,
+      "complexity": "low",
+      "mixedConcerns": [
+        "State + API calls",
+        "State + Calculations",
+        "API + Calculations"
+      ]
+    },
+    {
+      "path": "pages\\educator\\StudentsEnrolled.jsx",
+      "lineCount": 78,
+      "importCount": 6,
+      "exportCount": 1,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [],
+      "directModelImports": 0,
+      "complexity": "low",
+      "mixedConcerns": [
+        "State + API calls",
+        "State + Calculations",
+        "API + Calculations"
+      ]
+    },
+    {
+      "path": "pages\\student\\CourseDetails.jsx",
+      "lineCount": 227,
+      "importCount": 10,
+      "exportCount": 1,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [],
+      "directModelImports": 0,
+      "complexity": "high",
+      "mixedConcerns": [
+        "State + API calls",
+        "State + Calculations",
+        "API + Calculations"
+      ]
+    },
+    {
+      "path": "pages\\student\\CoursesList.jsx",
+      "lineCount": 58,
+      "importCount": 7,
+      "exportCount": 1,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [],
+      "directModelImports": 0,
+      "complexity": "low",
+      "mixedConcerns": [
+        "State + Calculations"
+      ]
+    },
+    {
+      "path": "pages\\student\\Home.jsx",
+      "lineCount": 33,
+      "importCount": 7,
+      "exportCount": 1,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [],
+      "directModelImports": 0,
+      "complexity": "low",
+      "mixedConcerns": null
+    },
+    {
+      "path": "pages\\student\\MyEnrollments.jsx",
+      "lineCount": 101,
+      "importCount": 6,
+      "exportCount": 1,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [],
+      "directModelImports": 0,
+      "complexity": "medium",
+      "mixedConcerns": [
+        "State + API calls",
+        "State + Calculations",
+        "API + Calculations"
+      ]
+    },
+    {
+      "path": "pages\\student\\Player.jsx",
+      "lineCount": 208,
+      "importCount": 12,
+      "exportCount": 1,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [],
+      "directModelImports": 0,
+      "complexity": "high",
+      "mixedConcerns": [
+        "State + API calls",
+        "State + Calculations",
+        "API + Calculations"
+      ]
+    }
+  ],
+  "controllers": [
+    {
+      "path": "controllers\\courseController.js",
+      "lineCount": 35,
+      "importCount": 1,
+      "exportCount": 2,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [],
+      "directModelImports": 1,
+      "complexity": "low",
+      "mixedConcerns": null
+    },
+    {
+      "path": "controllers\\educatorController.js",
+      "lineCount": 130,
+      "importCount": 5,
+      "exportCount": 5,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [
+        "Clerk",
+        "Cloudinary"
+      ],
+      "directModelImports": 3,
+      "complexity": "medium",
+      "mixedConcerns": null
+    },
+    {
+      "path": "controllers\\userController.js",
+      "lineCount": 173,
+      "importCount": 5,
+      "exportCount": 6,
+      "functionCount": 0,
+      "classCount": 0,
+      "externalServices": [
+        "Stripe"
+      ],
+      "directModelImports": 4,
+      "complexity": "medium",
+      "mixedConcerns": null
+    }
+  ],
+  "models": [],
+  "components": [],
+  "dependencies": {
+    "server": [
+      {
+        "name": "@clerk/express",
+        "version": "^1.7.63",
+        "type": "dependency"
+      },
+      {
+        "name": "cloudinary",
+        "version": "^2.9.0",
+        "type": "dependency"
+      },
+      {
+        "name": "cors",
+        "version": "^2.8.5",
+        "type": "dependency"
+      },
+      {
+        "name": "dotenv",
+        "version": "^17.2.3",
+        "type": "dependency"
+      },
+      {
+        "name": "express",
+        "version": "^5.2.1",
+        "type": "dependency"
+      },
+      {
+        "name": "mongoose",
+        "version": "^9.1.4",
+        "type": "dependency"
+      },
+      {
+        "name": "multer",
+        "version": "^2.0.2",
+        "type": "dependency"
+      },
+      {
+        "name": "nodemon",
+        "version": "^3.1.11",
+        "type": "dependency"
+      },
+      {
+        "name": "stripe",
+        "version": "^20.2.0",
+        "type": "dependency"
+      },
+      {
+        "name": "svix",
+        "version": "^1.42.0",
+        "type": "dependency"
+      }
+    ],
+    "client": []
+  },
+  "metrics": {
+    "totalFiles": 44,
+    "totalLines": 3422,
+    "avgFileSize": 77.77272727272727,
+    "largestFiles": [
+      {
+        "path": "assets\\assets.js",
+        "lineCount": 772,
+        "importCount": 50,
+        "exportCount": 6,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [
+          "Clerk"
+        ],
+        "directModelImports": 0,
+        "complexity": "high",
+        "mixedConcerns": null
+      },
+      {
+        "path": "pages\\educator\\AddCourse.jsx",
+        "lineCount": 293,
+        "importCount": 7,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 0,
+        "complexity": "high",
+        "mixedConcerns": [
+          "State + API calls",
+          "State + Calculations",
+          "API + Calculations"
+        ]
+      },
+      {
+        "path": "pages\\student\\CourseDetails.jsx",
+        "lineCount": 227,
+        "importCount": 10,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 0,
+        "complexity": "high",
+        "mixedConcerns": [
+          "State + API calls",
+          "State + Calculations",
+          "API + Calculations"
+        ]
+      },
+      {
+        "path": "pages\\student\\Player.jsx",
+        "lineCount": 208,
+        "importCount": 12,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 0,
+        "complexity": "high",
+        "mixedConcerns": [
+          "State + API calls",
+          "State + Calculations",
+          "API + Calculations"
+        ]
+      },
+      {
+        "path": "controllers\\userController.js",
+        "lineCount": 173,
+        "importCount": 5,
+        "exportCount": 6,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [
+          "Stripe"
+        ],
+        "directModelImports": 4,
+        "complexity": "medium",
+        "mixedConcerns": null
+      },
+      {
+        "path": "context\\AppContext.jsx",
+        "lineCount": 156,
+        "importCount": 7,
+        "exportCount": 2,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [
+          "Clerk"
+        ],
+        "directModelImports": 0,
+        "complexity": "medium",
+        "mixedConcerns": [
+          "State + API calls",
+          "State + Calculations",
+          "API + Calculations"
+        ]
+      },
+      {
+        "path": "controllers\\educatorController.js",
+        "lineCount": 130,
+        "importCount": 5,
+        "exportCount": 5,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [
+          "Clerk",
+          "Cloudinary"
+        ],
+        "directModelImports": 3,
+        "complexity": "medium",
+        "mixedConcerns": null
+      },
+      {
+        "path": "controllers\\webhooks.js",
+        "lineCount": 127,
+        "importCount": 5,
+        "exportCount": 2,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [
+          "Stripe",
+          "Clerk"
+        ],
+        "directModelImports": 3,
+        "complexity": "medium",
+        "mixedConcerns": null
+      },
+      {
+        "path": "pages\\educator\\Dashboard.jsx",
+        "lineCount": 112,
+        "importCount": 7,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 0,
+        "complexity": "medium",
+        "mixedConcerns": [
+          "State + API calls",
+          "State + Calculations",
+          "API + Calculations"
+        ]
+      },
+      {
+        "path": "pages\\student\\MyEnrollments.jsx",
+        "lineCount": 101,
+        "importCount": 6,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 0,
+        "complexity": "medium",
+        "mixedConcerns": [
+          "State + API calls",
+          "State + Calculations",
+          "API + Calculations"
+        ]
+      },
+      {
+        "path": "pages\\educator\\StudentsEnrolled.jsx",
+        "lineCount": 78,
+        "importCount": 6,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": [
+          "State + API calls",
+          "State + Calculations",
+          "API + Calculations"
+        ]
+      },
+      {
+        "path": "components\\student\\Navbar.jsx",
+        "lineCount": 74,
+        "importCount": 7,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [
+          "Clerk"
+        ],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": [
+          "State + API calls"
+        ]
+      },
+      {
+        "path": "pages\\educator\\MyCourses.jsx",
+        "lineCount": 74,
+        "importCount": 4,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": [
+          "State + API calls",
+          "State + Calculations",
+          "API + Calculations"
+        ]
+      },
+      {
+        "path": "pages\\student\\CoursesList.jsx",
+        "lineCount": 58,
+        "importCount": 7,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": [
+          "State + Calculations"
+        ]
+      },
+      {
+        "path": "components\\student\\Footer.jsx",
+        "lineCount": 52,
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": null
+      },
+      {
+        "path": "App.jsx",
+        "lineCount": 49,
+        "importCount": 15,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": null
+      },
+      {
+        "path": "components\\student\\TestimonialsSection.jsx",
+        "lineCount": 43,
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": null
+      },
+      {
+        "path": "models\\Course.js",
+        "lineCount": 42,
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [
+          "MongoDB"
+        ],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": null
+      },
+      {
+        "path": "server.js",
+        "lineCount": 39,
+        "importCount": 9,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [
+          "Stripe",
+          "Clerk",
+          "Cloudinary"
+        ],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": null
+      },
+      {
+        "path": "components\\educator\\Sidebar.jsx",
+        "lineCount": 39,
+        "importCount": 4,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": [
+          "State + Calculations"
+        ]
+      },
+      {
+        "path": "components\\student\\Rating.jsx",
+        "lineCount": 39,
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": null
+      },
+      {
+        "path": "components\\student\\CourseCard.jsx",
+        "lineCount": 38,
+        "importCount": 4,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": [
+          "State + Calculations"
+        ]
+      },
+      {
+        "path": "components\\educator\\Footer.jsx",
+        "lineCount": 36,
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": null
+      },
+      {
+        "path": "controllers\\courseController.js",
+        "lineCount": 35,
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 1,
+        "complexity": "low",
+        "mixedConcerns": null
+      },
+      {
+        "path": "pages\\educator\\Educator.jsx",
+        "lineCount": 34,
+        "importCount": 5,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": null
+      },
+      {
+        "path": "components\\student\\CoursesSection.jsx",
+        "lineCount": 33,
+        "importCount": 4,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": [
+          "State + Calculations"
+        ]
+      },
+      {
+        "path": "pages\\student\\Home.jsx",
+        "lineCount": 33,
+        "importCount": 7,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": null
+      },
+      {
+        "path": "components\\educator\\Navbar.jsx",
+        "lineCount": 32,
+        "importCount": 5,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [
+          "Clerk"
+        ],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": null
+      },
+      {
+        "path": "components\\student\\Hero.jsx",
+        "lineCount": 30,
+        "importCount": 4,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 2,
+        "externalServices": [],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": null
+      },
+      {
+        "path": "components\\student\\Loading.jsx",
+        "lineCount": 29,
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": null
+      },
+      {
+        "path": "components\\student\\SearchBar.jsx",
+        "lineCount": 28,
+        "importCount": 3,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": null
+      },
+      {
+        "path": "main.jsx",
+        "lineCount": 28,
+        "importCount": 6,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [
+          "Clerk"
+        ],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": null
+      },
+      {
+        "path": "components\\student\\Companies.jsx",
+        "lineCount": 26,
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": null
+      },
+      {
+        "path": "components\\student\\CallToAction.jsx",
+        "lineCount": 24,
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": null
+      },
+      {
+        "path": "models\\User.js",
+        "lineCount": 20,
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [
+          "MongoDB"
+        ],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": null
+      },
+      {
+        "path": "middlewares\\authMiddleware.js",
+        "lineCount": 18,
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [
+          "Clerk"
+        ],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": null
+      },
+      {
+        "path": "models\\Purchase.js",
+        "lineCount": 17,
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [
+          "MongoDB"
+        ],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": null
+      },
+      {
+        "path": "routes\\educatorRoutes.js",
+        "lineCount": 15,
+        "importCount": 4,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": null
+      },
+      {
+        "path": "routes\\userRoutes.js",
+        "lineCount": 13,
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": null
+      },
+      {
+        "path": "configs\\cloudinary.js",
+        "lineCount": 11,
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [
+          "Cloudinary"
+        ],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": null
+      },
+      {
+        "path": "configs\\mongodb.js",
+        "lineCount": 10,
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [
+          "MongoDB"
+        ],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": null
+      },
+      {
+        "path": "models\\CourseProgress.js",
+        "lineCount": 10,
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [
+          "MongoDB"
+        ],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": null
+      },
+      {
+        "path": "routes\\courseRoutes.js",
+        "lineCount": 9,
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": null
+      },
+      {
+        "path": "configs\\multer.js",
+        "lineCount": 7,
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": null
+      }
+    ],
+    "complexity": {
+      "high": [
+        {
+          "path": "assets\\assets.js",
+          "lineCount": 772,
+          "importCount": 50,
+          "exportCount": 6,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [
+            "Clerk"
+          ],
+          "directModelImports": 0,
+          "complexity": "high",
+          "mixedConcerns": null
+        },
+        {
+          "path": "pages\\educator\\AddCourse.jsx",
+          "lineCount": 293,
+          "importCount": 7,
+          "exportCount": 1,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [],
+          "directModelImports": 0,
+          "complexity": "high",
+          "mixedConcerns": [
+            "State + API calls",
+            "State + Calculations",
+            "API + Calculations"
+          ]
+        },
+        {
+          "path": "pages\\student\\CourseDetails.jsx",
+          "lineCount": 227,
+          "importCount": 10,
+          "exportCount": 1,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [],
+          "directModelImports": 0,
+          "complexity": "high",
+          "mixedConcerns": [
+            "State + API calls",
+            "State + Calculations",
+            "API + Calculations"
+          ]
+        },
+        {
+          "path": "pages\\student\\Player.jsx",
+          "lineCount": 208,
+          "importCount": 12,
+          "exportCount": 1,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [],
+          "directModelImports": 0,
+          "complexity": "high",
+          "mixedConcerns": [
+            "State + API calls",
+            "State + Calculations",
+            "API + Calculations"
+          ]
+        }
+      ],
+      "medium": [
+        {
+          "path": "controllers\\educatorController.js",
+          "lineCount": 130,
+          "importCount": 5,
+          "exportCount": 5,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [
+            "Clerk",
+            "Cloudinary"
+          ],
+          "directModelImports": 3,
+          "complexity": "medium",
+          "mixedConcerns": null
+        },
+        {
+          "path": "controllers\\userController.js",
+          "lineCount": 173,
+          "importCount": 5,
+          "exportCount": 6,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [
+            "Stripe"
+          ],
+          "directModelImports": 4,
+          "complexity": "medium",
+          "mixedConcerns": null
+        },
+        {
+          "path": "controllers\\webhooks.js",
+          "lineCount": 127,
+          "importCount": 5,
+          "exportCount": 2,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [
+            "Stripe",
+            "Clerk"
+          ],
+          "directModelImports": 3,
+          "complexity": "medium",
+          "mixedConcerns": null
+        },
+        {
+          "path": "context\\AppContext.jsx",
+          "lineCount": 156,
+          "importCount": 7,
+          "exportCount": 2,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [
+            "Clerk"
+          ],
+          "directModelImports": 0,
+          "complexity": "medium",
+          "mixedConcerns": [
+            "State + API calls",
+            "State + Calculations",
+            "API + Calculations"
+          ]
+        },
+        {
+          "path": "pages\\educator\\Dashboard.jsx",
+          "lineCount": 112,
+          "importCount": 7,
+          "exportCount": 1,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [],
+          "directModelImports": 0,
+          "complexity": "medium",
+          "mixedConcerns": [
+            "State + API calls",
+            "State + Calculations",
+            "API + Calculations"
+          ]
+        },
+        {
+          "path": "pages\\student\\MyEnrollments.jsx",
+          "lineCount": 101,
+          "importCount": 6,
+          "exportCount": 1,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [],
+          "directModelImports": 0,
+          "complexity": "medium",
+          "mixedConcerns": [
+            "State + API calls",
+            "State + Calculations",
+            "API + Calculations"
+          ]
+        }
+      ],
+      "low": [
+        {
+          "path": "configs\\cloudinary.js",
+          "lineCount": 11,
+          "importCount": 1,
+          "exportCount": 1,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [
+            "Cloudinary"
+          ],
+          "directModelImports": 0,
+          "complexity": "low",
+          "mixedConcerns": null
+        },
+        {
+          "path": "configs\\mongodb.js",
+          "lineCount": 10,
+          "importCount": 1,
+          "exportCount": 1,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [
+            "MongoDB"
+          ],
+          "directModelImports": 0,
+          "complexity": "low",
+          "mixedConcerns": null
+        },
+        {
+          "path": "configs\\multer.js",
+          "lineCount": 7,
+          "importCount": 1,
+          "exportCount": 1,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [],
+          "directModelImports": 0,
+          "complexity": "low",
+          "mixedConcerns": null
+        },
+        {
+          "path": "controllers\\courseController.js",
+          "lineCount": 35,
+          "importCount": 1,
+          "exportCount": 2,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [],
+          "directModelImports": 1,
+          "complexity": "low",
+          "mixedConcerns": null
+        },
+        {
+          "path": "middlewares\\authMiddleware.js",
+          "lineCount": 18,
+          "importCount": 1,
+          "exportCount": 1,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [
+            "Clerk"
+          ],
+          "directModelImports": 0,
+          "complexity": "low",
+          "mixedConcerns": null
+        },
+        {
+          "path": "models\\Course.js",
+          "lineCount": 42,
+          "importCount": 1,
+          "exportCount": 1,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [
+            "MongoDB"
+          ],
+          "directModelImports": 0,
+          "complexity": "low",
+          "mixedConcerns": null
+        },
+        {
+          "path": "models\\CourseProgress.js",
+          "lineCount": 10,
+          "importCount": 1,
+          "exportCount": 1,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [
+            "MongoDB"
+          ],
+          "directModelImports": 0,
+          "complexity": "low",
+          "mixedConcerns": null
+        },
+        {
+          "path": "models\\Purchase.js",
+          "lineCount": 17,
+          "importCount": 1,
+          "exportCount": 1,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [
+            "MongoDB"
+          ],
+          "directModelImports": 0,
+          "complexity": "low",
+          "mixedConcerns": null
+        },
+        {
+          "path": "models\\User.js",
+          "lineCount": 20,
+          "importCount": 1,
+          "exportCount": 1,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [
+            "MongoDB"
+          ],
+          "directModelImports": 0,
+          "complexity": "low",
+          "mixedConcerns": null
+        },
+        {
+          "path": "routes\\courseRoutes.js",
+          "lineCount": 9,
+          "importCount": 2,
+          "exportCount": 1,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [],
+          "directModelImports": 0,
+          "complexity": "low",
+          "mixedConcerns": null
+        },
+        {
+          "path": "routes\\educatorRoutes.js",
+          "lineCount": 15,
+          "importCount": 4,
+          "exportCount": 1,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [],
+          "directModelImports": 0,
+          "complexity": "low",
+          "mixedConcerns": null
+        },
+        {
+          "path": "routes\\userRoutes.js",
+          "lineCount": 13,
+          "importCount": 2,
+          "exportCount": 1,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [],
+          "directModelImports": 0,
+          "complexity": "low",
+          "mixedConcerns": null
+        },
+        {
+          "path": "server.js",
+          "lineCount": 39,
+          "importCount": 9,
+          "exportCount": 0,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [
+            "Stripe",
+            "Clerk",
+            "Cloudinary"
+          ],
+          "directModelImports": 0,
+          "complexity": "low",
+          "mixedConcerns": null
+        },
+        {
+          "path": "App.jsx",
+          "lineCount": 49,
+          "importCount": 15,
+          "exportCount": 1,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [],
+          "directModelImports": 0,
+          "complexity": "low",
+          "mixedConcerns": null
+        },
+        {
+          "path": "components\\educator\\Footer.jsx",
+          "lineCount": 36,
+          "importCount": 2,
+          "exportCount": 1,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [],
+          "directModelImports": 0,
+          "complexity": "low",
+          "mixedConcerns": null
+        },
+        {
+          "path": "components\\educator\\Navbar.jsx",
+          "lineCount": 32,
+          "importCount": 5,
+          "exportCount": 1,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [
+            "Clerk"
+          ],
+          "directModelImports": 0,
+          "complexity": "low",
+          "mixedConcerns": null
+        },
+        {
+          "path": "components\\educator\\Sidebar.jsx",
+          "lineCount": 39,
+          "importCount": 4,
+          "exportCount": 1,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [],
+          "directModelImports": 0,
+          "complexity": "low",
+          "mixedConcerns": [
+            "State + Calculations"
+          ]
+        },
+        {
+          "path": "components\\student\\CallToAction.jsx",
+          "lineCount": 24,
+          "importCount": 2,
+          "exportCount": 1,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [],
+          "directModelImports": 0,
+          "complexity": "low",
+          "mixedConcerns": null
+        },
+        {
+          "path": "components\\student\\Companies.jsx",
+          "lineCount": 26,
+          "importCount": 2,
+          "exportCount": 1,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [],
+          "directModelImports": 0,
+          "complexity": "low",
+          "mixedConcerns": null
+        },
+        {
+          "path": "components\\student\\CourseCard.jsx",
+          "lineCount": 38,
+          "importCount": 4,
+          "exportCount": 1,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [],
+          "directModelImports": 0,
+          "complexity": "low",
+          "mixedConcerns": [
+            "State + Calculations"
+          ]
+        },
+        {
+          "path": "components\\student\\CoursesSection.jsx",
+          "lineCount": 33,
+          "importCount": 4,
+          "exportCount": 1,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [],
+          "directModelImports": 0,
+          "complexity": "low",
+          "mixedConcerns": [
+            "State + Calculations"
+          ]
+        },
+        {
+          "path": "components\\student\\Footer.jsx",
+          "lineCount": 52,
+          "importCount": 2,
+          "exportCount": 1,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [],
+          "directModelImports": 0,
+          "complexity": "low",
+          "mixedConcerns": null
+        },
+        {
+          "path": "components\\student\\Hero.jsx",
+          "lineCount": 30,
+          "importCount": 4,
+          "exportCount": 1,
+          "functionCount": 0,
+          "classCount": 2,
+          "externalServices": [],
+          "directModelImports": 0,
+          "complexity": "low",
+          "mixedConcerns": null
+        },
+        {
+          "path": "components\\student\\Loading.jsx",
+          "lineCount": 29,
+          "importCount": 2,
+          "exportCount": 1,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [],
+          "directModelImports": 0,
+          "complexity": "low",
+          "mixedConcerns": null
+        },
+        {
+          "path": "components\\student\\Navbar.jsx",
+          "lineCount": 74,
+          "importCount": 7,
+          "exportCount": 1,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [
+            "Clerk"
+          ],
+          "directModelImports": 0,
+          "complexity": "low",
+          "mixedConcerns": [
+            "State + API calls"
+          ]
+        },
+        {
+          "path": "components\\student\\Rating.jsx",
+          "lineCount": 39,
+          "importCount": 1,
+          "exportCount": 1,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [],
+          "directModelImports": 0,
+          "complexity": "low",
+          "mixedConcerns": null
+        },
+        {
+          "path": "components\\student\\SearchBar.jsx",
+          "lineCount": 28,
+          "importCount": 3,
+          "exportCount": 1,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [],
+          "directModelImports": 0,
+          "complexity": "low",
+          "mixedConcerns": null
+        },
+        {
+          "path": "components\\student\\TestimonialsSection.jsx",
+          "lineCount": 43,
+          "importCount": 2,
+          "exportCount": 1,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [],
+          "directModelImports": 0,
+          "complexity": "low",
+          "mixedConcerns": null
+        },
+        {
+          "path": "main.jsx",
+          "lineCount": 28,
+          "importCount": 6,
+          "exportCount": 0,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [
+            "Clerk"
+          ],
+          "directModelImports": 0,
+          "complexity": "low",
+          "mixedConcerns": null
+        },
+        {
+          "path": "pages\\educator\\Educator.jsx",
+          "lineCount": 34,
+          "importCount": 5,
+          "exportCount": 1,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [],
+          "directModelImports": 0,
+          "complexity": "low",
+          "mixedConcerns": null
+        },
+        {
+          "path": "pages\\educator\\MyCourses.jsx",
+          "lineCount": 74,
+          "importCount": 4,
+          "exportCount": 1,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [],
+          "directModelImports": 0,
+          "complexity": "low",
+          "mixedConcerns": [
+            "State + API calls",
+            "State + Calculations",
+            "API + Calculations"
+          ]
+        },
+        {
+          "path": "pages\\educator\\StudentsEnrolled.jsx",
+          "lineCount": 78,
+          "importCount": 6,
+          "exportCount": 1,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [],
+          "directModelImports": 0,
+          "complexity": "low",
+          "mixedConcerns": [
+            "State + API calls",
+            "State + Calculations",
+            "API + Calculations"
+          ]
+        },
+        {
+          "path": "pages\\student\\CoursesList.jsx",
+          "lineCount": 58,
+          "importCount": 7,
+          "exportCount": 1,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [],
+          "directModelImports": 0,
+          "complexity": "low",
+          "mixedConcerns": [
+            "State + Calculations"
+          ]
+        },
+        {
+          "path": "pages\\student\\Home.jsx",
+          "lineCount": 33,
+          "importCount": 7,
+          "exportCount": 1,
+          "functionCount": 0,
+          "classCount": 0,
+          "externalServices": [],
+          "directModelImports": 0,
+          "complexity": "low",
+          "mixedConcerns": null
+        }
+      ]
+    }
+  },
+  "coupling": {
+    "externalServices": [
+      "Cloudinary",
+      "MongoDB",
+      "Clerk",
+      "Cloudinary",
+      "Stripe",
+      "Stripe",
+      "Clerk",
+      "Clerk",
+      "MongoDB",
+      "MongoDB",
+      "MongoDB",
+      "MongoDB",
+      "Stripe",
+      "Clerk",
+      "Cloudinary",
+      "Clerk",
+      "Clerk",
+      "Clerk",
+      "Clerk",
+      "Clerk"
+    ],
+    "directImports": [
+      {
+        "path": "controllers\\courseController.js",
+        "lineCount": 35,
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 1,
+        "complexity": "low",
+        "mixedConcerns": null
+      },
+      {
+        "path": "controllers\\educatorController.js",
+        "lineCount": 130,
+        "importCount": 5,
+        "exportCount": 5,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [
+          "Clerk",
+          "Cloudinary"
+        ],
+        "directModelImports": 3,
+        "complexity": "medium",
+        "mixedConcerns": null
+      },
+      {
+        "path": "controllers\\userController.js",
+        "lineCount": 173,
+        "importCount": 5,
+        "exportCount": 6,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [
+          "Stripe"
+        ],
+        "directModelImports": 4,
+        "complexity": "medium",
+        "mixedConcerns": null
+      },
+      {
+        "path": "controllers\\webhooks.js",
+        "lineCount": 127,
+        "importCount": 5,
+        "exportCount": 2,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [
+          "Stripe",
+          "Clerk"
+        ],
+        "directModelImports": 3,
+        "complexity": "medium",
+        "mixedConcerns": null
+      }
+    ]
+  },
+  "cohesion": {
+    "mixedConcerns": [
+      {
+        "path": "components\\educator\\Sidebar.jsx",
+        "lineCount": 39,
+        "importCount": 4,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": [
+          "State + Calculations"
+        ]
+      },
+      {
+        "path": "components\\student\\CourseCard.jsx",
+        "lineCount": 38,
+        "importCount": 4,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": [
+          "State + Calculations"
+        ]
+      },
+      {
+        "path": "components\\student\\CoursesSection.jsx",
+        "lineCount": 33,
+        "importCount": 4,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": [
+          "State + Calculations"
+        ]
+      },
+      {
+        "path": "components\\student\\Navbar.jsx",
+        "lineCount": 74,
+        "importCount": 7,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [
+          "Clerk"
+        ],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": [
+          "State + API calls"
+        ]
+      },
+      {
+        "path": "context\\AppContext.jsx",
+        "lineCount": 156,
+        "importCount": 7,
+        "exportCount": 2,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [
+          "Clerk"
+        ],
+        "directModelImports": 0,
+        "complexity": "medium",
+        "mixedConcerns": [
+          "State + API calls",
+          "State + Calculations",
+          "API + Calculations"
+        ]
+      },
+      {
+        "path": "pages\\educator\\AddCourse.jsx",
+        "lineCount": 293,
+        "importCount": 7,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 0,
+        "complexity": "high",
+        "mixedConcerns": [
+          "State + API calls",
+          "State + Calculations",
+          "API + Calculations"
+        ]
+      },
+      {
+        "path": "pages\\educator\\Dashboard.jsx",
+        "lineCount": 112,
+        "importCount": 7,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 0,
+        "complexity": "medium",
+        "mixedConcerns": [
+          "State + API calls",
+          "State + Calculations",
+          "API + Calculations"
+        ]
+      },
+      {
+        "path": "pages\\educator\\MyCourses.jsx",
+        "lineCount": 74,
+        "importCount": 4,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": [
+          "State + API calls",
+          "State + Calculations",
+          "API + Calculations"
+        ]
+      },
+      {
+        "path": "pages\\educator\\StudentsEnrolled.jsx",
+        "lineCount": 78,
+        "importCount": 6,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": [
+          "State + API calls",
+          "State + Calculations",
+          "API + Calculations"
+        ]
+      },
+      {
+        "path": "pages\\student\\CourseDetails.jsx",
+        "lineCount": 227,
+        "importCount": 10,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 0,
+        "complexity": "high",
+        "mixedConcerns": [
+          "State + API calls",
+          "State + Calculations",
+          "API + Calculations"
+        ]
+      },
+      {
+        "path": "pages\\student\\CoursesList.jsx",
+        "lineCount": 58,
+        "importCount": 7,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 0,
+        "complexity": "low",
+        "mixedConcerns": [
+          "State + Calculations"
+        ]
+      },
+      {
+        "path": "pages\\student\\MyEnrollments.jsx",
+        "lineCount": 101,
+        "importCount": 6,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 0,
+        "complexity": "medium",
+        "mixedConcerns": [
+          "State + API calls",
+          "State + Calculations",
+          "API + Calculations"
+        ]
+      },
+      {
+        "path": "pages\\student\\Player.jsx",
+        "lineCount": 208,
+        "importCount": 12,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0,
+        "externalServices": [],
+        "directModelImports": 0,
+        "complexity": "high",
+        "mixedConcerns": [
+          "State + API calls",
+          "State + Calculations",
+          "API + Calculations"
+        ]
+      }
+    ]
+  }
+}
