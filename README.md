@@ -96,6 +96,24 @@ npm run dev
 
 Client runs on `http://localhost:5173` by default.
 
+<img width="1914" height="1079" alt="Image" src="https://github.com/user-attachments/assets/23da35ca-a2b9-43c5-bd11-626cd733d4b1" />
+
+<img width="1917" height="1076" alt="Image" src="https://github.com/user-attachments/assets/f8b7af58-d39c-49f8-a5ed-e043bc139f93" />
+
+<img width="1912" height="1074" alt="Image" src="https://github.com/user-attachments/assets/9e9a4c13-6c00-4b37-929e-a9a412dc8359" />
+
+<img width="1918" height="1075" alt="Image" src="https://github.com/user-attachments/assets/b26d969e-803e-4a1b-98dd-e228226b86ed" />
+
+<img width="1919" height="1078" alt="Image" src="https://github.com/user-attachments/assets/9f6330b7-bf7e-468b-b27d-8bcdde64086f" />
+
+<img width="1908" height="1078" alt="Image" src="https://github.com/user-attachments/assets/7d3e0f0b-2666-444b-8904-23ed1bfc6798" />
+
+<img width="1907" height="1071" alt="Image" src="https://github.com/user-attachments/assets/4a0a152e-e83a-4a1a-aadc-bf32405f1acf" />
+
+<img width="1908" height="1074" alt="Image" src="https://github.com/user-attachments/assets/0444a72f-3386-4a40-9f2d-6bd2f0656981" />
+
+<img width="1915" height="1079" alt="Image" src="https://github.com/user-attachments/assets/7a09ef5f-52f2-4d4e-97c2-9fb9c1dba20c" />
+
 ### Environment Variables
 
 Create `.env` inside `server/`:
